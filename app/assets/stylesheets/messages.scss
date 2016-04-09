@@ -1,0 +1,40 @@
+// Place all the styles related to the Messages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.form-wrap {
+  margin: auto;
+  width: 300px;
+  padding: 50px;
+  border-radius: 5px;
+  background: rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  height: 30px;
+}
+
+.fields {
+  margin-top: 20px;
+}
+
+.field-label {
+}
+
+.actions input {
+  margin-top: 5px;
+  border: none;
+  height: 50px;
+  background: white;
+
+  &:hover {
+    color: white;
+    background: rgba(40,104,199, 8);
+    transition: 1s all ease;
+  }
+}
