@@ -5,8 +5,8 @@ class Message < ActiveRecord::Base
   # validate :send_sms -> egg
 
   def send_sms
-    # nice octopush integration
     unless ENV['RACK_ENV'] != 'test'
+      # nice octopush integration
       client = Octopush::Client.new
 
       sms = Octopush::SMS.new

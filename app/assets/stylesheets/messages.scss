@@ -2,12 +2,19 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .form-wrap {
   margin: auto;
-  width: 300px;
+  max-width: 300px;
   padding: 50px;
   border-radius: 5px;
   background: rgba(0,0,0,0.1);
+  position: relative;
+  margin-top: 10%
 }
 
 h1 {
