@@ -1,0 +1,30 @@
+# octopush-rails-example
+
+It's a simple rails project that shows you how sent sms messages with Octopush.
+
+Note: Since this is a simple example I sent the messages in the same process, 
+That's the web app. But for a more complex applications I recommended to set a 
+background job for that so not block the user.
+
+Mainly background jobs libs uses redis for the queues, but you can use whatever
+you want.
+
+For use octopush you need to [register](http://www.octopush.com/en/registration)
+an account. If you already have an account, you can jump this.
+
+In this example I seated a simple way to sent messages with Octopush.
+
+You can see the final result [here](https://www.dropbox.com/s/ebtxbqcrjje728c/Screenshot%20from%202016-04-09%2019%3A46%3A46.png?dl=0)
+
+I tried to keep the commits concise.
+
+So, I hope each commit is enough explicit, even for a beginner. If you found 
+something unclear or wrong, please contact us.
+
+Disclamer: Enjoy the eggs :D.
+
+Some related notes: 
+
+https://binarapps.com/blog/the-basics-of-sms-sending/
+https://www.twilio.com/blog/2012/02/adding-twilio-sms-messaging-to-your-rails-app.html
+https://github.com/TwilioDevEd/marketing-notifications-rails
